@@ -7,4 +7,10 @@ router.post("/pokemon", pokemonController.createPokemon);
 
 router.get("/pokemon", pokemonController.listPokemon);
 
-module.exports = router;
+router.patch("/pokemon/:id", pokemonController.updatePokemon);
+
+router.delete("/pokemon/:id", pokemonController.deletePokemon);
+
+router.get("/pokemon/:id", pokemonController.getPokemonById);
+
+module.exports = router; 
