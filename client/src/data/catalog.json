@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 45
+      },
+      {
+        "name": "Ataque",
+        "value": 49
+      },
+      {
+        "name": "Defesa",
+        "value": 49
+      },
+      {
+        "name": "At. especial",
+        "value": 65
+      },
+      {
+        "name": "Def. especial",
+        "value": 65
+      },
+      {
+        "name": "Velocidade",
+        "value": 45
+      }
+    ],
+    "image": "/pokemon/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 13,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 60
+      },
+      {
+        "name": "Ataque",
+        "value": 62
+      },
+      {
+        "name": "Defesa",
+        "value": 63
+      },
+      {
+        "name": "At. especial",
+        "value": 80
+      },
+      {
+        "name": "Def. especial",
+        "value": 80
+      },
+      {
+        "name": "Velocidade",
+        "value": 60
+      }
+    ],
+    "image": "/pokemon/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 2,
+    "weight": 100,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 80
+      },
+      {
+        "name": "Ataque",
+        "value": 82
+      },
+      {
+        "name": "Defesa",
+        "value": 83
+      },
+      {
+        "name": "At. especial",
+        "value": 100
+      },
+      {
+        "name": "Def. especial",
+        "value": 100
+      },
+      {
+        "name": "Velocidade",
+        "value": 80
+      }
+    ],
+    "image": "/pokemon/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": [
+      "fire"
+    ],
+    "height": 0.6,
+    "weight": 8.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 39
+      },
+      {
+        "name": "Ataque",
+        "value": 52
+      },
+      {
+        "name": "Defesa",
+        "value": 43
+      },
+      {
+        "name": "At. especial",
+        "value": 60
+      },
+      {
+        "name": "Def. especial",
+        "value": 50
+      },
+      {
+        "name": "Velocidade",
+        "value": 65
+      }
+    ],
+    "image": "/pokemon/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": [
+      "fire"
+    ],
+    "height": 1.1,
+    "weight": 19,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 58
+      },
+      {
+        "name": "Ataque",
+        "value": 64
+      },
+      {
+        "name": "Defesa",
+        "value": 58
+      },
+      {
+        "name": "At. especial",
+        "value": 80
+      },
+      {
+        "name": "Def. especial",
+        "value": 65
+      },
+      {
+        "name": "Velocidade",
+        "value": 80
+      }
+    ],
+    "image": "/pokemon/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height": 1.7,
+    "weight": 90.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 78
+      },
+      {
+        "name": "Ataque",
+        "value": 84
+      },
+      {
+        "name": "Defesa",
+        "value": 78
+      },
+      {
+        "name": "At. especial",
+        "value": 109
+      },
+      {
+        "name": "Def. especial",
+        "value": 85
+      },
+      {
+        "name": "Velocidade",
+        "value": 100
+      }
+    ],
+    "image": "/pokemon/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": [
+      "water"
+    ],
+    "height": 0.5,
+    "weight": 9,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 44
+      },
+      {
+        "name": "Ataque",
+        "value": 48
+      },
+      {
+        "name": "Defesa",
+        "value": 65
+      },
+      {
+        "name": "At. especial",
+        "value": 50
+      },
+      {
+        "name": "Def. especial",
+        "value": 64
+      },
+      {
+        "name": "Velocidade",
+        "value": 43
+      }
+    ],
+    "image": "/pokemon/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": [
+      "water"
+    ],
+    "height": 1,
+    "weight": 22.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 59
+      },
+      {
+        "name": "Ataque",
+        "value": 63
+      },
+      {
+        "name": "Defesa",
+        "value": 80
+      },
+      {
+        "name": "At. especial",
+        "value": 65
+      },
+      {
+        "name": "Def. especial",
+        "value": 80
+      },
+      {
+        "name": "Velocidade",
+        "value": 58
+      }
+    ],
+    "image": "/pokemon/8.png"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "height": 1.6,
+    "weight": 85.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 79
+      },
+      {
+        "name": "Ataque",
+        "value": 83
+      },
+      {
+        "name": "Defesa",
+        "value": 100
+      },
+      {
+        "name": "At. especial",
+        "value": 85
+      },
+      {
+        "name": "Def. especial",
+        "value": 105
+      },
+      {
+        "name": "Velocidade",
+        "value": 78
+      }
+    ],
+    "image": "/pokemon/9.png"
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": [
+      "bug"
+    ],
+    "height": 0.3,
+    "weight": 2.9,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 45
+      },
+      {
+        "name": "Ataque",
+        "value": 30
+      },
+      {
+        "name": "Defesa",
+        "value": 35
+      },
+      {
+        "name": "At. especial",
+        "value": 20
+      },
+      {
+        "name": "Def. especial",
+        "value": 20
+      },
+      {
+        "name": "Velocidade",
+        "value": 45
+      }
+    ],
+    "image": "/pokemon/10.png"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "types": [
+      "bug"
+    ],
+    "height": 0.7,
+    "weight": 9.9,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 50
+      },
+      {
+        "name": "Ataque",
+        "value": 20
+      },
+      {
+        "name": "Defesa",
+        "value": 55
+      },
+      {
+        "name": "At. especial",
+        "value": 25
+      },
+      {
+        "name": "Def. especial",
+        "value": 25
+      },
+      {
+        "name": "Velocidade",
+        "value": 30
+      }
+    ],
+    "image": "/pokemon/11.png"
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height": 1.1,
+    "weight": 32,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 60
+      },
+      {
+        "name": "Ataque",
+        "value": 45
+      },
+      {
+        "name": "Defesa",
+        "value": 50
+      },
+      {
+        "name": "At. especial",
+        "value": 90
+      },
+      {
+        "name": "Def. especial",
+        "value": 80
+      },
+      {
+        "name": "Velocidade",
+        "value": 70
+      }
+    ],
+    "image": "/pokemon/12.png"
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 40
+      },
+      {
+        "name": "Ataque",
+        "value": 35
+      },
+      {
+        "name": "Defesa",
+        "value": 30
+      },
+      {
+        "name": "At. especial",
+        "value": 20
+      },
+      {
+        "name": "Def. especial",
+        "value": 20
+      },
+      {
+        "name": "Velocidade",
+        "value": 50
+      }
+    ],
+    "image": "/pokemon/13.png"
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 0.6,
+    "weight": 10,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 45
+      },
+      {
+        "name": "Ataque",
+        "value": 25
+      },
+      {
+        "name": "Defesa",
+        "value": 50
+      },
+      {
+        "name": "At. especial",
+        "value": 25
+      },
+      {
+        "name": "Def. especial",
+        "value": 25
+      },
+      {
+        "name": "Velocidade",
+        "value": 35
+      }
+    ],
+    "image": "/pokemon/14.png"
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 29.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 65
+      },
+      {
+        "name": "Ataque",
+        "value": 90
+      },
+      {
+        "name": "Defesa",
+        "value": 40
+      },
+      {
+        "name": "At. especial",
+        "value": 45
+      },
+      {
+        "name": "Def. especial",
+        "value": 80
+      },
+      {
+        "name": "Velocidade",
+        "value": 75
+      }
+    ],
+    "image": "/pokemon/15.png"
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 40
+      },
+      {
+        "name": "Ataque",
+        "value": 45
+      },
+      {
+        "name": "Defesa",
+        "value": 40
+      },
+      {
+        "name": "At. especial",
+        "value": 35
+      },
+      {
+        "name": "Def. especial",
+        "value": 35
+      },
+      {
+        "name": "Velocidade",
+        "value": 56
+      }
+    ],
+    "image": "/pokemon/16.png"
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.1,
+    "weight": 30,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 63
+      },
+      {
+        "name": "Ataque",
+        "value": 60
+      },
+      {
+        "name": "Defesa",
+        "value": 55
+      },
+      {
+        "name": "At. especial",
+        "value": 50
+      },
+      {
+        "name": "Def. especial",
+        "value": 50
+      },
+      {
+        "name": "Velocidade",
+        "value": 71
+      }
+    ],
+    "image": "/pokemon/17.png"
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.5,
+    "weight": 39.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 83
+      },
+      {
+        "name": "Ataque",
+        "value": 80
+      },
+      {
+        "name": "Defesa",
+        "value": 75
+      },
+      {
+        "name": "At. especial",
+        "value": 70
+      },
+      {
+        "name": "Def. especial",
+        "value": 70
+      },
+      {
+        "name": "Velocidade",
+        "value": 101
+      }
+    ],
+    "image": "/pokemon/18.png"
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "types": [
+      "normal"
+    ],
+    "height": 0.3,
+    "weight": 3.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 30
+      },
+      {
+        "name": "Ataque",
+        "value": 56
+      },
+      {
+        "name": "Defesa",
+        "value": 35
+      },
+      {
+        "name": "At. especial",
+        "value": 25
+      },
+      {
+        "name": "Def. especial",
+        "value": 35
+      },
+      {
+        "name": "Velocidade",
+        "value": 72
+      }
+    ],
+    "image": "/pokemon/19.png"
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "types": [
+      "normal"
+    ],
+    "height": 0.7,
+    "weight": 18.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 55
+      },
+      {
+        "name": "Ataque",
+        "value": 81
+      },
+      {
+        "name": "Defesa",
+        "value": 60
+      },
+      {
+        "name": "At. especial",
+        "value": 50
+      },
+      {
+        "name": "Def. especial",
+        "value": 70
+      },
+      {
+        "name": "Velocidade",
+        "value": 97
+      }
+    ],
+    "image": "/pokemon/20.png"
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 0.3,
+    "weight": 2,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 40
+      },
+      {
+        "name": "Ataque",
+        "value": 60
+      },
+      {
+        "name": "Defesa",
+        "value": 30
+      },
+      {
+        "name": "At. especial",
+        "value": 31
+      },
+      {
+        "name": "Def. especial",
+        "value": 31
+      },
+      {
+        "name": "Velocidade",
+        "value": 70
+      }
+    ],
+    "image": "/pokemon/21.png"
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.2,
+    "weight": 38,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 65
+      },
+      {
+        "name": "Ataque",
+        "value": 90
+      },
+      {
+        "name": "Defesa",
+        "value": 65
+      },
+      {
+        "name": "At. especial",
+        "value": 61
+      },
+      {
+        "name": "Def. especial",
+        "value": 61
+      },
+      {
+        "name": "Velocidade",
+        "value": 100
+      }
+    ],
+    "image": "/pokemon/22.png"
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "types": [
+      "poison"
+    ],
+    "height": 2,
+    "weight": 6.9,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 35
+      },
+      {
+        "name": "Ataque",
+        "value": 60
+      },
+      {
+        "name": "Defesa",
+        "value": 44
+      },
+      {
+        "name": "At. especial",
+        "value": 40
+      },
+      {
+        "name": "Def. especial",
+        "value": 54
+      },
+      {
+        "name": "Velocidade",
+        "value": 55
+      }
+    ],
+    "image": "/pokemon/23.png"
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "types": [
+      "poison"
+    ],
+    "height": 3.5,
+    "weight": 65,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 60
+      },
+      {
+        "name": "Ataque",
+        "value": 95
+      },
+      {
+        "name": "Defesa",
+        "value": 69
+      },
+      {
+        "name": "At. especial",
+        "value": 65
+      },
+      {
+        "name": "Def. especial",
+        "value": 79
+      },
+      {
+        "name": "Velocidade",
+        "value": 80
+      }
+    ],
+    "image": "/pokemon/24.png"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": [
+      "electric"
+    ],
+    "height": 0.4,
+    "weight": 6,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 35
+      },
+      {
+        "name": "Ataque",
+        "value": 55
+      },
+      {
+        "name": "Defesa",
+        "value": 40
+      },
+      {
+        "name": "At. especial",
+        "value": 50
+      },
+      {
+        "name": "Def. especial",
+        "value": 50
+      },
+      {
+        "name": "Velocidade",
+        "value": 90
+      }
+    ],
+    "image": "/pokemon/25.png"
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "types": [
+      "normal"
+    ],
+    "height": 0.3,
+    "weight": 6.5,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 55
+      },
+      {
+        "name": "Ataque",
+        "value": 55
+      },
+      {
+        "name": "Defesa",
+        "value": 50
+      },
+      {
+        "name": "At. especial",
+        "value": 45
+      },
+      {
+        "name": "Def. especial",
+        "value": 65
+      },
+      {
+        "name": "Velocidade",
+        "value": 55
+      }
+    ],
+    "image": "/pokemon/133.png"
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "types": [
+      "normal"
+    ],
+    "height": 2.1,
+    "weight": 460,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 160
+      },
+      {
+        "name": "Ataque",
+        "value": 110
+      },
+      {
+        "name": "Defesa",
+        "value": 65
+      },
+      {
+        "name": "At. especial",
+        "value": 65
+      },
+      {
+        "name": "Def. especial",
+        "value": 110
+      },
+      {
+        "name": "Velocidade",
+        "value": 30
+      }
+    ],
+    "image": "/pokemon/143.png"
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "types": [
+      "psychic"
+    ],
+    "height": 0.4,
+    "weight": 4,
+    "stats": [
+      {
+        "name": "HP",
+        "value": 100
+      },
+      {
+        "name": "Ataque",
+        "value": 100
+      },
+      {
+        "name": "Defesa",
+        "value": 100
+      },
+      {
+        "name": "At. especial",
+        "value": 100
+      },
+      {
+        "name": "Def. especial",
+        "value": 100
+      },
+      {
+        "name": "Velocidade",
+        "value": 100
+      }
+    ],
+    "image": "/pokemon/151.png"
+  }
+]

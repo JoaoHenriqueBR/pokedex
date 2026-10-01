@@ -1,0 +1,33 @@
+export default function Icon({ name, className = 'size-5', ...props }) {
+  const paths = {
+    search: <><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.5 4.5" /></>,
+    heart: <path d="M20.8 4.9a5.5 5.5 0 0 0-7.8 0L12 6l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.3a5.5 5.5 0 0 0 0-7.8Z" />,
+    pokeball: <><circle cx="12" cy="12" r="9" /><path d="M3 12h6m6 0h6" /><circle cx="12" cy="12" r="3" /></>,
+    grid: <><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></>,
+    collection: <><rect x="6" y="7" width="15" height="14" rx="3" /><path d="M17 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 3 2M10 12h7m-7 4h4" /></>,
+    plus: <path d="M12 5v14M5 12h14" />,
+    check: <path d="m5 12 4 4L19 6" />,
+    'arrow-left': <path d="m10 5-7 7 7 7M3 12h18" />,
+    'arrow-right': <path d="M3 12h18m-7-7 7 7-7 7" />,
+    'chevron-right': <path d="m9 5 7 7-7 7" />,
+    'chevron-left': <path d="m15 5-7 7 7 7" />,
+    'chevron-down': <path d="m6 9 6 6 6-6" />,
+    leaf: <><path d="M20 3c-1 5 3 15-7 17-5 1-9-3-8-7C7 5 15 8 20 3Z" /><path d="M3 21 15 9" /></>,
+    flame: <path d="M12 3c2 5 7 7 7 12a7 7 0 0 1-14 0c0-3 2-5 4-7 0 3 2 4 2 4s3-4 1-9Z" />,
+    drop: <path d="M12 2C10 6 5 11 5 15a7 7 0 0 0 14 0c0-4-5-9-7-13Z" />,
+    bolt: <path d="m13 2-9 12h7l-1 8 10-13h-8l1-7Z" />,
+    bug: <><rect x="7" y="6" width="10" height="15" rx="5" /><path d="M9 6 7 3m8 3 2-3M7 10H3m14 0h4M7 15H3m14 0h4M12 7v14" /></>,
+    sparkles: <><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z" /><path d="M20 2v4m-2-2h4" /></>,
+    filter: <><path d="M4 7h16M4 17h16" /><circle cx="9" cy="7" r="2" fill="currentColor" /><circle cx="15" cy="17" r="2" fill="currentColor" /></>,
+    list: <path d="M9 5h12M9 12h12M9 19h12M3 5h1M3 12h1M3 19h1" />,
+    close: <path d="m6 6 12 12M6 18 18 6" />,
+    menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+    info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10v.1" /></>,
+    globe: <><circle cx="12" cy="12" r="9" /><ellipse cx="12" cy="12" rx="4" ry="9" /><path d="M3 12h18" /></>,
+    compass: <><circle cx="12" cy="12" r="9" /><path d="m16 8-2 6-6 2 2-6 6-2Z" /></>,
+    loader: <path d="M21 12a9 9 0 1 1-9-9" />,
+    shuffle: <><path d="M3 5h3c5 0 7 14 12 14h3m-4-4 4 4-4 3M3 19h3c1.5 0 3-2 4-4M14 9c1-2 2.5-4 4-4h3m-4-3 4 3-4 4" /></>,
+    edit: <path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-4-4L5 15l-1 5Z" />,
+  };
+  return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name] || paths.sparkles}</svg>;
+}
