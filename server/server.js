@@ -7,7 +7,7 @@ const pokemonRoutes = require("./routes/pokemonRoutes")
 
 const connectDB = require("./db");
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 const BETA = process.env.BETA;
 
 const app = express();
@@ -21,10 +21,14 @@ app.use("/api", pokemonRoutes)
 connectDB();
 
 
-app.listen(PORT, () => {
+if (require.main === module) {
+  app.listen(PORT, () => {
     console.log(`Servidor escutando a porta ${PORT}`);
     console.log(`Quanto sobra para o Beta? ${BETA}`)
-});
+  });
+}
+
+module.exports = app;
 
 
 
